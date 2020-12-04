@@ -18,8 +18,6 @@ let astronauts: Astronaut[] = [
 
 for (let i = 0; i < astronauts.length; i++) {
    let astronaut = astronauts[i];
-   console.log(astronauts);
-   console.log(astronaut);
    let status = '';
    if (falcon9.addAstronaut(astronaut)) {
       status = "On board";
